@@ -9,7 +9,7 @@ h1:hover {
     font-family: 'Romantic', sans-serif;   
 }
 
-@media (min-width: 900px) {
+@media (min-width: 500px) {
     #heart {
         display: none;
     }
@@ -20,7 +20,7 @@ h1:hover {
     }
 }
 
-@media (max-width:900px) {
+@media (max-width: 500px) {
     #heart {
         display: block;
         margin: auto;
