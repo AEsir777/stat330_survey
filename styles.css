@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    font-size: 10rem;
+    color: red;
+    font-family: 'Horror Type', sans-serif;                                              
+}
+
+h1:hover {
+    font-family: 'Romantic', sans-serif;   
+}
+
+@media (min-width: 900px) {
+    #heart {
+        display: none;
+    }
+
+    #scary{
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width:900px) {
+    #heart {
+        display: block;
+        margin: auto;
+    }
+
+    #scary {
+        display: none;
+    }
+}
+
